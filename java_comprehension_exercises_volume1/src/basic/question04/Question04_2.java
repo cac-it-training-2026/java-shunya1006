@@ -17,8 +17,8 @@ public class Question04_2 {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		String str = reader.readLine();
 		int temporaryAge = Integer.parseInt(str);
-		ageGroup[4] = temporaryAge;
-		System.out.println("4番目の人の年齢は" + ageGroup[4] + "歳です。");
+		ageGroup[3] = temporaryAge;
+		System.out.println("4番目の人の年齢は" + ageGroup[3] + "歳です。");
 		System.out.println("人数は" + ageGroup.length + "人です。");
 
 	}
